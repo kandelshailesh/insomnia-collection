@@ -1,0 +1,31 @@
+_id: req_6bec1903b50f47ad90c0989b8dc39352
+type: Request
+parentId: fld_782a9f53e9684e868d6a4cf04deadf57
+modified: 1674535081126
+created: 1674535081126
+url: "{{host}}/league/player/get_hero_points_history"
+name: Get hero points history
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"playerId":"JTVjCiMHce1a2",
+    	"skip":0,
+    	"cachedData":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_43ff2d45f78e4edf9913753a6408a725
+authentication: {}
+metaSortKey: -1668508629723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

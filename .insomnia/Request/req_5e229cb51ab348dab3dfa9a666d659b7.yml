@@ -1,0 +1,42 @@
+_id: req_5e229cb51ab348dab3dfa9a666d659b7
+type: Request
+parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
+modified: 1674535105808
+created: 1674535105808
+url: "{{host}}/league/add_nft_rewards"
+name: Add nft item
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"event_id":"Halloween",
+    	"nft_rewards": [
+    		{
+    			"nft_id": "2",
+    			"quantity": 20,
+    			"contract_address": "0x20000000000ABE134",
+    			"hero_points_required": 200000,
+    			"metadata":{
+    				"title":"Otherdeeds NFT 2",
+    				"url":"https://www.google.com/",
+    				"description":"Test NFT reward 1",
+    				"image_url":"https://i.seadn.io/gcs/files/26c3a14f0f9f2cbe6080d932a09870d0.png?auto=format&w=256"
+    		}
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674472814702
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

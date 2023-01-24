@@ -1,0 +1,34 @@
+_id: req_9f1335e64c344b4782c6e06847caba06
+type: Request
+parentId: fld_782a9f53e9684e868d6a4cf04deadf57
+modified: 1674535081129
+created: 1674535081129
+url: "{{host}}/league/invalidate-cache"
+name: Invalidate Hero Points Cache
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cacheKey":"heroPointsEarned",
+    	"prefix":true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_76a59684558c491db2d96d2a01948e07
+  - id: pair_b49388c1505447e9ac7ce065f2c92754
+    name: internal-api-key
+    value: 9de89bcdd9f0681a3d8cb
+    description: ""
+authentication: {}
+metaSortKey: -1668519032368
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

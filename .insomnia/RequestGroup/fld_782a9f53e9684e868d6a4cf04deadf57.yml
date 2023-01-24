@@ -1,0 +1,10 @@
+_id: fld_782a9f53e9684e868d6a4cf04deadf57
+type: RequestGroup
+parentId: wrk_98c15b4297f046b3b61da4a08a0f7041
+modified: 1674535081121
+created: 1674535081121
+name: Hero points
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1000000000
