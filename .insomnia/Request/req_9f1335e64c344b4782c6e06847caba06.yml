@@ -1,7 +1,7 @@
 _id: req_9f1335e64c344b4782c6e06847caba06
 type: Request
 parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1674535081129
+modified: 1674631363793
 created: 1674535081129
 url: "{{host}}/league/invalidate-cache"
 name: Invalidate Hero Points Cache
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"cacheKey":"heroPointsEarned",
+    	"cacheKey":"league",
     	"prefix":true
     }
 parameters: []

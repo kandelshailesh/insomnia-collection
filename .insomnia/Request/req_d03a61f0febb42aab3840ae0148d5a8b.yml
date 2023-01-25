@@ -1,0 +1,39 @@
+_id: req_d03a61f0febb42aab3840ae0148d5a8b
+type: Request
+parentId: fld_cea42fc6a70b408a9e317a93ab934064
+modified: 1674639423855
+created: 1674541963965
+url: "{{host}}/league/webhook"
+name: Redemption Webhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"event": "HeroPointsRedemption",
+    	"eventPayload": {
+    		"redeemer": "0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
+    		"nftId": "1",
+    		"quantity": 19,
+    		"eventId":"Halloween",
+    		"contractAddress":"0x071aad74a52f76aec4a4b4fecfc910dbc8fe03f4"
+    	},
+    	"txnHash": "0xdc7a13939ef0ab1726fb75aef84d4c874a9b3bb8119325f83e3fd71ef00b5332",
+    	"blockTimestamp": "2023-01-24T05:20:00.000Z",
+    	"address": "0x071aad74a52f76aec4a4b4fecfc910dbc8fe03f4",
+    	"blockNumber":2010302
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674541963965
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

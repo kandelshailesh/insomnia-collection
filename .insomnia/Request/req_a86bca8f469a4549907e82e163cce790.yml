@@ -1,27 +1,24 @@
-_id: req_6bec1903b50f47ad90c0989b8dc39352
+_id: req_a86bca8f469a4549907e82e163cce790
 type: Request
-parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1674543289017
-created: 1674535081126
-url: "{{host}}/league/player/get_hero_points_history"
-name: Get hero points history
+parentId: fld_cea42fc6a70b408a9e317a93ab934064
+modified: 1674543117582
+created: 1674537460211
+url: "{{host}}/league/player/get_redemption_history"
+name: Get redemption history
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"playerId":"NFFlxMGZG8qU3",
-    	"skip":0,
-    	"cachedData":false
+    	"playerId":"NFFlxMGZG8qU3"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_43ff2d45f78e4edf9913753a6408a725
 authentication: {}
-metaSortKey: -1668508629723
+metaSortKey: -1674537460211
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

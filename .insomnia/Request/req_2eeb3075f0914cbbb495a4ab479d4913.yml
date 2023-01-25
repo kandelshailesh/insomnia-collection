@@ -1,10 +1,10 @@
-_id: req_6bec1903b50f47ad90c0989b8dc39352
+_id: req_2eeb3075f0914cbbb495a4ab479d4913
 type: Request
-parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1674543289017
-created: 1674535081126
-url: "{{host}}/league/player/get_hero_points_history"
-name: Get hero points history
+parentId: fld_cea42fc6a70b408a9e317a93ab934064
+modified: 1674543272505
+created: 1674537678824
+url: "{{host}}/league/redemption/verify"
+name: Verify redemption
 description: ""
 method: POST
 body:
@@ -12,16 +12,15 @@ body:
   text: |-
     {
     	"playerId":"NFFlxMGZG8qU3",
-    	"skip":0,
-    	"cachedData":false
+    	"id":1,
+    	"walletAddress":"0xc37325E3b338922BC08A7856f20a97f851fD3f4b"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_43ff2d45f78e4edf9913753a6408a725
 authentication: {}
-metaSortKey: -1668508629723
+metaSortKey: -1674537678824
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

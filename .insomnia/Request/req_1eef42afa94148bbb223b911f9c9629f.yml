@@ -1,25 +1,24 @@
-_id: req_514b78a2df464becad02b9e227291060
+_id: req_1eef42afa94148bbb223b911f9c9629f
 type: Request
-parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1674618344296
-created: 1674535081124
-url: "{{host}}/league/player/get_hero_points"
-name: Get hero points of a user
+parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
+modified: 1674631390192
+created: 1674629934798
+url: "{{host}}/league/delete_nft_rewards"
+name: Delete NFT reward
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: |-
     {
-    	"playerId":"NFFlxMGZG8qU3"
+    	"ids":1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_589091e3be724c9cbf5bd6fffe62394c
 authentication: {}
-metaSortKey: -1668508629773
+metaSortKey: -1674629934798
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
