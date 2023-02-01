@@ -1,7 +1,7 @@
 _id: req_e2583bd2291d4d3f8f21f551f2c654be
 type: Request
 parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
-modified: 1674632095521
+modified: 1675167473921
 created: 1674535105814
 url: "{{host}}/league/get_nft_rewards"
 name: Get nft reward list
@@ -9,11 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"event_id":["Halloween"],
-    	"id":2
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type

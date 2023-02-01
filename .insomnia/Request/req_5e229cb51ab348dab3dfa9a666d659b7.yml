@@ -1,7 +1,7 @@
 _id: req_5e229cb51ab348dab3dfa9a666d659b7
 type: Request
 parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
-modified: 1674632010928
+modified: 1675168690342
 created: 1674535105808
 url: "{{host}}/league/add_nft_rewards"
 name: Add nft item
@@ -11,18 +11,73 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"event_id":"Halloween",
+    	"event_id": 1,
     	"nft_rewards": [
     		{
+    			"nft_id": "1",
+    			"quantity": 1,
+    			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"hero_points_required": 15000,
+    			"metadata": {
+    				"title": "Test NFT #1",
+    				"description": "Test NFT reward 1",
+    				"image_url": "https://i.seadn.io/gae/jhss_Sw_7yP5Ar5z1pWcaYvtlQrvGAe8PzqlcU2inYomIS0_nNsV1UaNrjHtj7Q6lY5vOJjTc9msF4IxSRzX0qpzQGo3Zpf5uItIKso?auto=format&w=512"
+    			}
+    		},
+    		{
+    			"nft_id": "2",
+    			"quantity": 1,
+    			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"hero_points_required": 20000,
+    			"metadata": {
+    				"title": "Test NFT #2",
+    				"description": "Test NFT reward 2",
+    				"image_url": "https://i.seadn.io/gae/MBpJH4BBZzUx1evSMDE61fGksyP17H78XpBdGI5hPtrV1_lIdRzi1mfoMdIH8A5XRPT083CjG7Gbb7r1GQQLLsfnJUJFeXFctAJWSQ?auto=format&w=512"
+    			}
+    		},
+    		{
     			"nft_id": "3",
-    			"quantity": 15,
-    			"contract_address": "0x20000000000ABE134",
-    			"hero_points_required": 150000,
-    			"metadata":{
-    				"title":"Otherdeeds NFT #3",
-    				"description":"Test NFT reward 3",
-    				"image_url":"https://i.seadn.io/gcs/files/26c3a14f0f9f2cbe6080d932a09870d0.png?auto=format&w=256"
-    		}
+    			"quantity": 1,
+    			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"hero_points_required": 15000,
+    			"metadata": {
+    				"title": "Test NFT #3",
+    				"description": "Test NFT reward 3",
+    				"image_url": "https://i.seadn.io/gae/7DzEy68ywGhCOB1-vUTTtkFhzOAeaI4sAg-RZZERwlb0ajgqLCTuZIEp7LLupv0dYK06tjGH1bQZDY-bYD8JjUa6duOlhmdlYx3K?auto=format&w=512"
+    			}
+    		},
+    		{
+    			"nft_id": "4",
+    			"quantity": 1,
+    			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"hero_points_required": 15000,
+    			"metadata": {
+    				"title": "Test NFT #4",
+    				"description": "Test NFT reward 4",
+    				"image_url": "https://i.seadn.io/gae/Ti2XqECnKDMZPy72TloseqG9ytLEVwffSJ8027CdnDuyVpH89PSZLp835lwiDcwSYYg9cKhX0eRDOWizMVLOn-C3qvJsVv52yt3OjA?auto=format&w=512"
+    			}
+    		},
+    		{
+    			"nft_id": "5",
+    			"quantity": 1,
+    			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"hero_points_required": 15000,
+    			"metadata": {
+    				"title": "Test NFT #5",
+    				"description": "Test NFT reward 5",
+    				"image_url": "https://i.seadn.io/gae/MFXa8F0WCPiavIuO2C3NIYDrr2roJ8xMj9eH1rCVddN1PGBC4NTQyfqp-ezU3_10I6T7Tl2VfneNs-3BuBcb28vYedDBiB_hJROy0g?auto=format&w=512"
+    			}
+    		},
+    		{
+    			"nft_id": "6",
+    			"quantity": 1,
+    			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"hero_points_required": 15000,
+    			"metadata": {
+    				"title": "Test NFT #6",
+    				"description": "Test NFT reward 6",
+    				"image_url": "https://i.seadn.io/gae/gNmwwbLySDzAsZVs_N3-5XIess109csKE28Ax7DsGwtpr9u0d8trIuNZw43-ihvI1gAxiEridR5J-_C-y-8qLyZHyFZcn_w9RoE?auto=format&w=512"
+    			}
     		}
     	]
     }

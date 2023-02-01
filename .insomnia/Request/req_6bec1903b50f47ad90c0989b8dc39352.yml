@@ -1,7 +1,7 @@
 _id: req_6bec1903b50f47ad90c0989b8dc39352
 type: Request
 parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1674543289017
+modified: 1674801883022
 created: 1674535081126
 url: "{{host}}/league/player/get_hero_points_history"
 name: Get hero points history
@@ -11,9 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"playerId":"NFFlxMGZG8qU3",
+    	"playerId":"JTVjCiMHce1a2",
     	"skip":0,
-    	"cachedData":false
+    	"cachedData":false,
+    	""
     }
 parameters: []
 headers:
