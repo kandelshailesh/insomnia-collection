@@ -1,0 +1,36 @@
+_id: req_519ec4f3a69746829b1ae641c6112ec9
+type: Request
+parentId: fld_20c5f180d9dd48e59fc497b2923a1bd1
+modified: 1675838621677
+created: 1675836730912
+url: "{{host}}/league/heropoints/event/add_reward"
+name: Add Event Reward 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id": 1,
+    	"difficulty_level": "Hard",
+    	"base_reward": 20000,
+    	"required_tower_balance": 10000,
+    	"required_ape_balance": 10,
+    	"required_card_balance": 10,
+    	"tower_extra_reward": 40000,
+    	"ape_extra_reward": 40000,
+    	"card_extra_reward": 40000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675813707636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

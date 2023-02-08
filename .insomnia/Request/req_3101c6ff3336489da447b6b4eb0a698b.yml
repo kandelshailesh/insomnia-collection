@@ -1,0 +1,29 @@
+_id: req_3101c6ff3336489da447b6b4eb0a698b
+type: Request
+parentId: fld_f68689d78c5b47c4b0a92b1c53272fe6
+modified: 1675831667262
+created: 1675831274125
+url: "{{host}}/league/heropoints/update_event"
+name: Update event 1
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id":1,
+    	"event_name":"Halloween"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675780421330
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_20c5f180d9dd48e59fc497b2923a1bd1
+type: RequestGroup
+parentId: wrk_98c15b4297f046b3b61da4a08a0f7041
+modified: 1675836730895
+created: 1675836730895
+name: Heropoints Event Reward
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1675184008926

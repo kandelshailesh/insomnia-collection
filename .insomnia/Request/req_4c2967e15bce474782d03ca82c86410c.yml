@@ -1,0 +1,34 @@
+_id: req_4c2967e15bce474782d03ca82c86410c
+type: Request
+parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
+modified: 1675841623022
+created: 1675841623022
+url: "{{host}}/league/update_nft_reward"
+name: Update NFT reward metadata
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id": 1,
+    	"metadata": {
+    		"url": null,
+    		"title": "Testing NFT #1",
+    		"image_url": "https://i.seadn.io/gae/jhss_Sw_7yP5Ar5z1pWcaYvtlQrvGAe8PzqlcU2inYomIS0_nNsV1UaNrjHtj7Q6lY5vOJjTc9msF4IxSRzX0qpzQGo3Zpf5uItIKso?auto=format&w=512",
+    		"description": "Shailesh Kandel"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674472988009.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

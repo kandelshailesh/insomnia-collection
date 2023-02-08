@@ -1,0 +1,36 @@
+_id: req_b771c966926b4486b03a4214ef0dc417
+type: Request
+parentId: fld_20c5f180d9dd48e59fc497b2923a1bd1
+modified: 1675838698964
+created: 1675838637987
+url: "{{host}}/league/heropoints/event/add_reward"
+name: Add Event Reward 3
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id": 1,
+    	"difficulty_level": "Crazy",
+    	"base_reward": 40000,
+    	"required_tower_balance": 20000,
+    	"required_ape_balance": 20,
+    	"required_card_balance": 20,
+    	"tower_extra_reward": 80000,
+    	"ape_extra_reward": 80000,
+    	"card_extra_reward": 80000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675809546847.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

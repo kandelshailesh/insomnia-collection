@@ -1,0 +1,29 @@
+_id: req_650f658197184ef3a9bbc2c3a1956bb9
+type: Request
+parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
+modified: 1675841654058
+created: 1675841223016
+url: "{{host}}/league/update_nft_reward"
+name: Update NFT reward
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"hero_points_required": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674473161317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

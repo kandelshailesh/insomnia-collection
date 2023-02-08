@@ -1,0 +1,28 @@
+_id: req_b2b29e6c4d2c46adaf801285c7afd126
+type: Request
+parentId: fld_f68689d78c5b47c4b0a92b1c53272fe6
+modified: 1675831267859
+created: 1675831250077
+url: "{{host}}/league/heropoints/get_events"
+name: Get all events
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_name":"Halloween"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675805386059.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

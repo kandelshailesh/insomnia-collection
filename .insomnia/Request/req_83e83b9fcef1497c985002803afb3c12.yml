@@ -1,0 +1,28 @@
+_id: req_83e83b9fcef1497c985002803afb3c12
+type: Request
+parentId: fld_f68689d78c5b47c4b0a92b1c53272fe6
+modified: 1675832529467
+created: 1675832078574
+url: "{{host}}/league/heropoints/delete_event"
+name: Delete event 1
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675772099753.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

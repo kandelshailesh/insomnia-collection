@@ -1,0 +1,28 @@
+_id: req_4c55a477da2643cc96456d53fc9f7ea9
+type: Request
+parentId: fld_20c5f180d9dd48e59fc497b2923a1bd1
+modified: 1675839306637
+created: 1675836730917
+url: "{{host}}/league/heropoints/event/get_rewards"
+name: Get all  reward of events
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675805386059.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

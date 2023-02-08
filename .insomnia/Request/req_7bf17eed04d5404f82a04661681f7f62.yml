@@ -1,0 +1,29 @@
+_id: req_7bf17eed04d5404f82a04661681f7f62
+type: Request
+parentId: fld_20c5f180d9dd48e59fc497b2923a1bd1
+modified: 1675839745413
+created: 1675836730920
+url: "{{host}}/league/heropoints/event/update_reward"
+name: Update event  reward 1
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":3,
+    	"base_reward":3000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675780421330
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

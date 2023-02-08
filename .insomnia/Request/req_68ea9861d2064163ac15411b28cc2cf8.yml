@@ -1,0 +1,31 @@
+_id: req_68ea9861d2064163ac15411b28cc2cf8
+type: Request
+parentId: fld_f68689d78c5b47c4b0a92b1c53272fe6
+modified: 1675831224898
+created: 1675831205423
+url: "{{host}}/league/heropoints/add_event"
+name: Add Event 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_name":"Christmas",
+    	"event_max_rewards":20000000,
+    	"event_startdate":"2022-12-20T00:00:00.000Z",
+    	"event_enddate":"2022-12-30T00:00:00.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675813707636
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

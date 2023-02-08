@@ -1,0 +1,31 @@
+_id: req_eb55365318bc4168b739eb4f7d8171d9
+type: Request
+parentId: fld_f68689d78c5b47c4b0a92b1c53272fe6
+modified: 1675831263372
+created: 1675830350789
+url: "{{host}}/league/heropoints/add_event"
+name: Add Event 1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_name":"Halloween",
+    	"event_max_rewards":2000000,
+    	"event_startdate":"2022-10-24T00:00:00.000Z",
+    	"event_enddate":"2022-11-07T00:00:00.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675830350789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_600259931e1d45c2815ccbf9184d5e95
+type: Request
+parentId: fld_20c5f180d9dd48e59fc497b2923a1bd1
+modified: 1675838748037
+created: 1675838640604
+url: "{{host}}/league/heropoints/event/add_reward"
+name: Add Event Reward 4
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id": 1,
+    	"difficulty_level": "Nightmare",
+    	"base_reward": 80000,
+    	"required_tower_balance": 40000,
+    	"required_ape_balance": 40,
+    	"required_card_balance": 30,
+    	"tower_extra_reward": 160000,
+    	"ape_extra_reward": 160000,
+    	"card_extra_reward": 160000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675807466453.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

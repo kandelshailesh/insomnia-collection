@@ -1,0 +1,31 @@
+_id: req_18927f92a13e4a4a8851141cb1a32970
+type: Request
+parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
+modified: 1675766741060
+created: 1675763778176
+url: "{{host}}/league/get_token_metadata"
+name: Get token metadata
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nft_id": "70",
+    	"contract_address": "0xb1FAC5B5b535FbdB4323AA7A0aaC6039CE731c7F",
+    	"contract_type":"ERC721",
+    	"network_id":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675763778177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_b683095772424e419e018dd5bfd8de0e
+type: Environment
+parentId: env_495d85ef04559c5105a67f66c9b426d5309320e7
+modified: 1675675724103
+created: 1675414555024
+name: Preprod
+data:
+  host: https://cdh-league-api-preprod-dot-tower-token-firestore.df.r.appspot.com
+dataPropertyOrder:
+  "&":
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1675414555024
