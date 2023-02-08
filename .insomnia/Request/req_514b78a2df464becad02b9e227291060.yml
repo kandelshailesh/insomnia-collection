@@ -1,7 +1,7 @@
 _id: req_514b78a2df464becad02b9e227291060
 type: Request
 parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1675225714614
+modified: 1675682059296
 created: 1674535081124
 url: "{{host}}/league/player/get_hero_points"
 name: Get hero points of a user

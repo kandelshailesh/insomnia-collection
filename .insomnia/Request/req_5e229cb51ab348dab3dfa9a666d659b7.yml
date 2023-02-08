@@ -1,10 +1,10 @@
 _id: req_5e229cb51ab348dab3dfa9a666d659b7
 type: Request
 parentId: fld_e2d7c0bd0f424b39a0c08763402a69c0
-modified: 1675168690342
+modified: 1675841906604
 created: 1674535105808
 url: "{{host}}/league/add_nft_rewards"
-name: Add nft item
+name: Add nft rewards item
 description: ""
 method: POST
 body:
@@ -17,6 +17,8 @@ body:
     			"nft_id": "1",
     			"quantity": 1,
     			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"contract_type": "ERC721",
+    			"holder_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"hero_points_required": 15000,
     			"metadata": {
     				"title": "Test NFT #1",
@@ -28,6 +30,8 @@ body:
     			"nft_id": "2",
     			"quantity": 1,
     			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
+    			"contract_type": "ERC721",
+    			"holder_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"hero_points_required": 20000,
     			"metadata": {
     				"title": "Test NFT #2",
@@ -40,6 +44,8 @@ body:
     			"quantity": 1,
     			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"hero_points_required": 15000,
+    			"contract_type": "ERC721",
+    			"holder_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"metadata": {
     				"title": "Test NFT #3",
     				"description": "Test NFT reward 3",
@@ -51,6 +57,8 @@ body:
     			"quantity": 1,
     			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"hero_points_required": 15000,
+    			"contract_type": "ERC721",
+    			"holder_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"metadata": {
     				"title": "Test NFT #4",
     				"description": "Test NFT reward 4",
@@ -62,6 +70,8 @@ body:
     			"quantity": 1,
     			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"hero_points_required": 15000,
+    			"contract_type": "ERC721",
+    			"holder_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"metadata": {
     				"title": "Test NFT #5",
     				"description": "Test NFT reward 5",
@@ -73,6 +83,8 @@ body:
     			"quantity": 1,
     			"contract_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"hero_points_required": 15000,
+    			"contract_type": "ERC721",
+    			"holder_address": "0x7A001110C90d52D00fd941ec1ED27F904074F7F9",
     			"metadata": {
     				"title": "Test NFT #6",
     				"description": "Test NFT reward 6",

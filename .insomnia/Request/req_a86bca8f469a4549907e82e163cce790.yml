@@ -1,7 +1,7 @@
 _id: req_a86bca8f469a4549907e82e163cce790
 type: Request
 parentId: fld_cea42fc6a70b408a9e317a93ab934064
-modified: 1674718415725
+modified: 1675742715057
 created: 1674537460211
 url: "{{host}}/league/player/get_redemption_history"
 name: Get redemption history
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"playerId":"Pi5q78UpAqRJV"
+    	"playerId":"NFFlxMGZG8qU3"
     }
 parameters: []
 headers:

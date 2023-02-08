@@ -1,7 +1,7 @@
 _id: req_9f1335e64c344b4782c6e06847caba06
 type: Request
 parentId: fld_782a9f53e9684e868d6a4cf04deadf57
-modified: 1674843132759
+modified: 1675743545663
 created: 1674535081129
 url: "{{host}}/league/invalidate-cache"
 name: Invalidate Hero Points Cache
@@ -23,6 +23,12 @@ headers:
     name: internal-api-key
     value: 9de89bcdd9f0681a3d8cb
     description: ""
+    disabled: false
+  - id: pair_b6e027fc4bdc4863966f8e519385ed1e
+    name: internal-api-key
+    value: e6d8d1be-0982-46c7-8938-55bee81d8f94
+    description: ""
+    disabled: true
 authentication: {}
 metaSortKey: -1668519032368
 isPrivate: false
